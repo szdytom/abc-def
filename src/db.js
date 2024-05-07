@@ -81,7 +81,6 @@ export class RatingStore {
 			item.rating = Math.max(item.rating, 3);
 		} else {
 			item.rating = Math.min(item.rating, 4.5);
-			item.confidence = Math.max(item.confidence, 1.8);
 		}
 		await tx.store.put(item);
 		await tx.done;

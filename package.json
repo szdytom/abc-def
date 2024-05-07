@@ -2,11 +2,10 @@
   "name": "@fang_erj/abc-def",
   "version": "0.1.0",
   "description": "在线复习高中英语单词拼写",
-  "main": "src/index.js",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url ./ --no-source-maps"
   },
   "repository": {
     "type": "git",
