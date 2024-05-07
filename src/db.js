@@ -71,16 +71,16 @@ export class RatingStore {
 			item.rating = 0;
 		}
 
-		if ((old_rating - 6) * outcome >= 0) {
+		if ((old_rating - 9) * outcome >= 0) {
 			item.confidence = Math.max(item.confidence / 1.2, 1.6);
 		} else {
 			item.confidence *= 1.2;
 		}
 
 		if (outcome === 1) {
-			item.rating = Math.max(item.rating, 3);
+			item.rating = Math.max(item.rating, 4.5);
 		} else if (old_rating < 12) { // forgive mistype
-			item.rating = Math.min(item.rating, 4.5);
+			item.rating = Math.min(item.rating, 6);
 		}
 		await tx.store.put(item);
 		await tx.done;
