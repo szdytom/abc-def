@@ -72,7 +72,7 @@ export class RatingStore {
 		}
 
 		if ((old_rating - 6) * outcome >= 0) {
-			item.confidence = Math.max(item.confidence / 1.2, 1.3);
+			item.confidence = Math.max(item.confidence / 1.2, 1.6);
 		} else {
 			item.confidence *= 1.2;
 		}

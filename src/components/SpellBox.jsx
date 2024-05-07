@@ -44,17 +44,16 @@ export function SpellBox({ wordlist }) {
 
 	const resetState = () => {
 		setAnswerStatus('none');
-		setIsNexting(false);
 		setUserAnswer('');
 	};
 
 	const nextQuestion = async () => {
 		resetState();
-		setQuestion(null);
-		setIsCorrect(true);
 		let res = await ratingStore.getItem(wordlist.keys());
+		setIsCorrect(true);
 		setProgress(res.progress);
 		setQuestion(res.next);
+		setIsNexting(false);
 	};
 
 	// First question generation
@@ -81,8 +80,8 @@ export function SpellBox({ wordlist }) {
 				setCombo(combo + 1);
 			}
 			setAnswerStatus('correct');
-			setIsNexting(true);
 			if (isCorrect || answerStatus == 'none') {
+				setIsNexting(true);
 				setTimeout(nextQuestion, 500);
 			} else {
 				resetState();
