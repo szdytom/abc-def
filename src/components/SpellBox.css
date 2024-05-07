@@ -1,0 +1,40 @@
+.spell-inputs-container {
+	display: flex;
+	align-items: center;
+}
+
+.spell-input {
+	height: 40px;
+	padding: 0 10px;
+	border: 1px solid black;
+	border-radius: 0;
+	min-width: 400px;
+	font-family: 'Monaspace Radon', 'Consolas', monospace;
+}
+
+.spell-input-wrong {
+	background-color: #ff5252;
+}
+
+.spell-input-correct {
+	background-color: #69f0ae;
+}
+
+#submit-button {
+	height: 42px;
+	padding: 0 15px;
+	margin-left: 10px;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	cursor: pointer;
+}
+
+#submit-button:hover {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+#submit-button:focus {
+	outline: none;
+}

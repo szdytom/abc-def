@@ -1,0 +1,33 @@
+{
+  "name": "@fang_erj/abc-def",
+  "version": "0.1.0",
+  "description": "在线复习高中英语单词拼写",
+  "main": "src/index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szdytom/abc-def.git"
+  },
+  "author": "szdytom <szdytom@qq.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/szdytom/abc-def/issues"
+  },
+  "homepage": "https://github.com/szdytom/abc-def#readme",
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "idb": "^8.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
