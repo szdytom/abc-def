@@ -97,7 +97,7 @@ export function SpellBox({ wordlist }) {
 	};
 
 	const handleInputKeydown = (e) => {
-		if (e.code === 'Enter') {
+		if (e.code === 'Enter' || e.keyCode === 13) {
 			handleSubmitEvent();
 		}
 	};
