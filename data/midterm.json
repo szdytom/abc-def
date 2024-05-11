@@ -1,315 +1,5 @@
 [
     [
-        "graph",
-        "n.图;图表;曲线图",
-        ""
-    ],
-    [
-        "emission",
-        "n.排放物;散发物;排放",
-        ""
-    ],
-    [
-        "melt",
-        "vi.& vt.(使)融化;熔化;软化",
-        ""
-    ],
-    [
-        "starve",
-        "vi.& vt.(使)挨饿;饿死",
-        "*"
-    ],
-    [
-        "seal",
-        "n.海豹",
-        ""
-    ],
-    [
-        "ecology",
-        "n.生态;生态学",
-        "*"
-    ],
-    [
-        "release",
-        "vt. & n.排放;释放;发布",
-        "*"
-    ],
-    [
-        "methane",
-        "n.甲烷;沼气",
-        ""
-    ],
-    [
-        "carbon",
-        "n.碳",
-        "*"
-    ],
-    [
-        "dioxide",
-        "n.二氧化物",
-        "*"
-    ],
-    [
-        "carbon dioxide",
-        "二氧化碳",
-        "D"
-    ],
-    [
-        "habitable",
-        "adj.适合居住的",
-        ""
-    ],
-    [
-        "sustain",
-        "vt.维持;遭受;承受住",
-        "*"
-    ],
-    [
-        "sustainable",
-        "adj.可持续的;合理利用的",
-        "*"
-    ],
-    [
-        "fossil",
-        "n.化石",
-        ""
-    ],
-    [
-        "fuel",
-        "n.燃料;刺激性言行",
-        "*"
-    ],
-    [
-        "fossil fuel",
-        "化石燃料(如煤或石油)",
-        "D"
-    ],
-    [
-        "comprehensive",
-        "adj.全部的;所有的;详尽的",
-        "*"
-    ],
-    [
-        "worldwide",
-        "adv.遍及全球地;adj.世界各地的;影响全世界的",
-        ""
-    ],
-    [
-        "trend",
-        "n.趋势;趋向;动向",
-        "*"
-    ],
-    [
-        "frequently",
-        "adv.频繁地;经常",
-        "*"
-    ],
-    [
-        "broadcast",
-        "vt. & vi.播送;广播;传播;n.广播节目;电视节目",
-        "*"
-    ],
-    [
-        "policy",
-        "n.政策;方针;原则",
-        "*"
-    ],
-    [
-        "footprint",
-        "n.足迹;(某物所占的)空间量;面积",
-        ""
-    ],
-    [
-        "restrict",
-        "vt.限制;限定;束缚",
-        "*"
-    ],
-    [
-        "restriction",
-        "n.限制规定;限制法规;约束",
-        "*"
-    ],
-    [
-        "seize",
-        "vt.抓住;夺取;控制",
-        "*"
-    ],
-    [
-        "basin",
-        "n.流域;盆地;盆",
-        "*"
-    ],
-    [
-        "penguin",
-        "n.企鹅",
-        ""
-    ],
-    [
-        "reform",
-        "vi. & vt.改革;(使)改正;改造;n.改革;变革;改良",
-        "*"
-    ],
-    [
-        "undergo",
-        "vt. 经历;经受(变化、不快等)",
-        ""
-    ],
-    [
-        "implement",
-        "vt.使生效;贯彻;执行",
-        ""
-    ],
-    [
-        "harmonious",
-        "adj.和谐的",
-        "*"
-    ],
-    [
-        "moderate",
-        "adj.适度的;中等的;温和的;vi.& vt.缓和;使适中【词性不同发音不同】",
-        ""
-    ],
-    [
-        "submit",
-        "vt. & vi.提交;呈递;屈服",
-        "*"
-    ],
-    [
-        "annual",
-        "adj.每年的;一年的;n.年刊;年鉴",
-        "*"
-    ],
-    [
-        "tropical",
-        "adj.热带的;来自热带的",
-        ""
-    ],
-    [
-        "chaos",
-        "n.混乱;杂乱;紊乱",
-        "*"
-    ],
-    [
-        "on behalf of",
-        "代表(代替)某人",
-        "*D"
-    ],
-    [
-        "nuclear",
-        "adj.原子能的;核能的;原子核的",
-        "*"
-    ],
-    [
-        "sensitive",
-        "adj.敏感的;善解人意的;灵敏的",
-        "*"
-    ],
-    [
-        "jungle",
-        "n.(热带)丛林;密林",
-        "*"
-    ],
-    [
-        "smog",
-        "n.烟雾(烟与雾混合的空气污染物)",
-        "*"
-    ],
-    [
-        "originate",
-        "vi. & vt.起源;发源;创立",
-        ""
-    ],
-    [
-        "volume",
-        "n.量;体积;(成套书籍中的)一卷",
-        "*"
-    ],
-    [
-        "garbage",
-        "n.垃圾;废物",
-        "*"
-    ],
-    [
-        "enterprise",
-        "n.公司;企业;事业",
-        "*"
-    ],
-    [
-        "restore",
-        "vt.恢复;使复原;修复",
-        "*"
-    ],
-    [
-        "conservation",
-        "n.(对环境、文物等)保护;保持",
-        "*"
-    ],
-    [
-        "dozen",
-        "n.(一)打;十二个",
-        "*"
-    ],
-    [
-        "dozens of",
-        "许多;很多",
-        "D"
-    ],
-    [
-        "regulation",
-        "n.章程;规章制度",
-        ""
-    ],
-    [
-        "disposal",
-        "n.去掉;清除;处理",
-        ""
-    ],
-    [
-        "inspection",
-        "n.检查;查看;视察",
-        "*"
-    ],
-    [
-        "fine",
-        "vt.对……处以罚款",
-        "*"
-    ],
-    [
-        "campaign",
-        "n.运动;战役；vi.& vt.参加运动;领导运动",
-        "*"
-    ],
-    [
-        "waterway",
-        "n.水道;航道",
-        ""
-    ],
-    [
-        "tolerate",
-        "vt.忍受;包容;容许",
-        "*"
-    ],
-    [
-        "agenda",
-        "n.议程表;议事日程",
-        "*"
-    ],
-    [
-        "Norway",
-        "挪威(北欧国家)",
-        "Z"
-    ],
-    [
-        "Svalbard",
-        "斯瓦尔巴群岛(挪威)",
-        "Z"
-    ],
-    [
-        "Hurricane Katrina",
-        "飓风卡特里娜",
-        "Z"
-    ],
-    [
         "adversity",
         "n.困境;逆境",
         ""
@@ -331,7 +21,7 @@
     ],
     [
         "endurance",
-        "\"n,忍耐力;耐久力\"",
+        "n.忍耐力;耐久力",
         ""
     ],
     [
@@ -342,7 +32,7 @@
     [
         "turn ... down",
         "拒绝(某人)",
-        "D"
+        "*D"
     ],
     [
         "qualified",
@@ -356,7 +46,7 @@
     ],
     [
         "aboard",
-        "\"adv, & prep.上(船、飞机、公共汽车等)\"",
+        "adv. & prep.上(船、飞机、公共汽车等)",
         "*"
     ],
     [
@@ -587,12 +277,12 @@
     [
         "make fire",
         "生火",
-        "D"
+        "*D"
     ],
     [
         "give off",
         "放出(热、光、气味或气体)",
-        "D"
+        "*D"
     ],
     [
         "episode",
@@ -675,6 +365,76 @@
         "Z"
     ],
     [
+        "remain cheerful in adversity",
+        "在逆境中仍保持乐观",
+        "*D"
+    ],
+    [
+        "bitter quarrels",
+        "激烈不愉快的争吵",
+        "*D"
+    ],
+    [
+        "beyond endurance",
+        "无法忍",
+        "*D"
+    ],
+    [
+        "be committed to doing",
+        "致力于/奉献于做某事",
+        "*D"
+    ],
+    [
+        "qualify ... for",
+        "使某人有资格获得",
+        "*D"
+    ],
+    [
+        "be enthusiastic about",
+        "对...充满热情",
+        "*D"
+    ],
+    [
+        "on board (the ship/plane)",
+        "在(船/飞机）上",
+        "*D"
+    ],
+    [
+        "be assigned to do",
+        "被指派做某事",
+        "*D"
+    ],
+    [
+        "enrvy (sb) (sth)",
+        "羡慕某人…",
+        "*D"
+    ],
+    [
+        "give out",
+        "用完;分发;发出(热、光等)",
+        "*D"
+    ],
+    [
+        "abandon oneself to (sth)",
+        "陷入某种情感",
+        "*D"
+    ],
+    [
+        "turn in",
+        "上交",
+        "*D"
+    ],
+    [
+        "\"persevere with …, persevere in …\"",
+        "坚持某事",
+        "*D"
+    ],
+    [
+        "make a resolution to do",
+        "下决心做",
+        "*D"
+    ],
+    [
         "drama",
         "n.戏;剧;戏剧艺术",
         "*"
@@ -712,7 +472,7 @@
     [
         "nursery rhyme",
         "n.童谣;儿歌",
-        "D"
+        "*D"
     ],
     [
         "folk",
@@ -721,7 +481,7 @@
     ],
     [
         "mockingbird",
-        "n.嘲鸫(美洲鸣禽，能模仿别种鸟的鸣叫)",
+        "n.嘲鸫(美洲鸣禽;能模仿别种鸟的鸣叫)",
         ""
     ],
     [
@@ -737,7 +497,7 @@
     [
         "billy goat",
         "公山羊",
-        "D"
+        "*D"
     ],
     [
         "bull",
@@ -776,7 +536,7 @@
     ],
     [
         "lawn",
-        "n.草坪，草地",
+        "n.草坪;草地",
         ""
     ],
     [
@@ -792,7 +552,7 @@
     [
         "be made up of",
         "由……组成(构成)",
-        "*"
+        "*D"
     ],
     [
         "mood",
@@ -861,7 +621,7 @@
     ],
     [
         "shelf",
-        "n.架子;搁板",
+        "n. 架子;搁板",
         "*"
     ],
     [
@@ -877,7 +637,7 @@
     [
         "cherry blossom",
         "樱花",
-        "D"
+        "*D"
     ],
     [
         "blank",
@@ -1020,7 +780,7 @@
         "Z"
     ],
     [
-        "The Crescent /'kresnt/Moon",
+        "The Crescent Moon",
         "《新月集》",
         "Z"
     ],
@@ -1053,5 +813,470 @@
         "Langston Hughes",
         "兰斯顿·休斯",
         "Z"
+    ],
+    [
+        "compose poetry",
+        "创作诗歌",
+        "*D"
+    ],
+    [
+        "convey certain feelings such as joy and sorrow",
+        "传达某些情感如快乐和悲伤",
+        "*D"
+    ],
+    [
+        "literary device",
+        "文学手法",
+        "*D"
+    ],
+    [
+        "folk songs",
+        "民歌",
+        "*D"
+    ],
+    [
+        "in a good mood",
+        "心情好",
+        "*D"
+    ],
+    [
+        "in a bad mood",
+        "心情不好",
+        "*D"
+    ],
+    [
+        "sow the seeds of...",
+        "播下...的种子",
+        "*D"
+    ],
+    [
+        "make great contributions to…",
+        "为...做出巨大贡献",
+        "*D"
+    ],
+    [
+        "my mind went blank",
+        "我脑子一片空白",
+        "*D"
+    ],
+    [
+        "express one's sympathy for...",
+        "表示某人的同情",
+        "*D"
+    ],
+    [
+        "\"A corresponds to B, A corresponds with B\"",
+        "A与B相一致",
+        "*D"
+    ],
+    [
+        "correspond with …",
+        "与某人通信",
+        "*D"
+    ],
+    [
+        "exchange greetings",
+        "互相问候",
+        "*D"
+    ],
+    [
+        "to the point",
+        "切题;中肯;扼要",
+        "*D"
+    ],
+    [
+        "beyond (sb's) comprehension",
+        "无法理解",
+        "*D"
+    ],
+    [
+        "graph",
+        "n.图;图表;曲线图",
+        ""
+    ],
+    [
+        "emission",
+        "n.排放物;散发物;排放",
+        ""
+    ],
+    [
+        "melt",
+        "vi.& vt.(使)融化;熔化;软化",
+        ""
+    ],
+    [
+        "starve",
+        "vi.& vt.(使)挨饿;饿死",
+        "*"
+    ],
+    [
+        "seal",
+        "n.海豹",
+        ""
+    ],
+    [
+        "ecology",
+        "n.生态;生态学",
+        "*"
+    ],
+    [
+        "release",
+        "vt. & n.排放;释放;发布",
+        "*"
+    ],
+    [
+        "methane",
+        "n.甲烷;沼气",
+        ""
+    ],
+    [
+        "carbon",
+        "n.碳",
+        "*"
+    ],
+    [
+        "dioxide",
+        "n.二氧化物",
+        "*"
+    ],
+    [
+        "carbon dioxide",
+        "二氧化碳",
+        "*D"
+    ],
+    [
+        "habitable",
+        "adj.适合居住的",
+        ""
+    ],
+    [
+        "sustain",
+        "vt.维持;遭受;承受住",
+        "*"
+    ],
+    [
+        "sustainable",
+        "adj.可持续的;合理利用的",
+        "*"
+    ],
+    [
+        "fossil",
+        "n.化石",
+        ""
+    ],
+    [
+        "fuel",
+        "n.燃料;刺激性言行",
+        "*"
+    ],
+    [
+        "fossil fuel",
+        "化石燃料(如煤或石油)",
+        "*D"
+    ],
+    [
+        "comprehensive",
+        "adj.全部的;所有的;详尽的",
+        "*"
+    ],
+    [
+        "worldwide",
+        "adv.遍及全球地;adj.世界各地的;影响全世界的",
+        ""
+    ],
+    [
+        "trend",
+        "n.趋势;趋向;动向",
+        "*"
+    ],
+    [
+        "frequently",
+        "adv.频繁地;经常",
+        "*"
+    ],
+    [
+        "broadcast",
+        "vt. & vi.播送;广播;传播;n.广播节目;电视节目",
+        "*"
+    ],
+    [
+        "policy",
+        "n.政策;方针;原则",
+        "*"
+    ],
+    [
+        "footprint",
+        "n.足迹;(某物所占的)空间量;面积",
+        ""
+    ],
+    [
+        "restrict",
+        "vt.限制;限定;束缚",
+        "*"
+    ],
+    [
+        "restriction",
+        "n.限制规定;限制法规;约束",
+        "*"
+    ],
+    [
+        "seize",
+        "vt.抓住;夺取;控制",
+        "*"
+    ],
+    [
+        "basin",
+        "n.流域;盆地;盆",
+        "*"
+    ],
+    [
+        "penguin",
+        "n.企鹅",
+        ""
+    ],
+    [
+        "reform",
+        "vi. & vt.改革;(使)改正;改造;n.改革;变革;改良",
+        "*"
+    ],
+    [
+        "undergo",
+        "vt. 经历;经受(变化、不快等)",
+        ""
+    ],
+    [
+        "implement",
+        "vt.使生效;贯彻;执行",
+        ""
+    ],
+    [
+        "harmonious",
+        "adj.和谐的",
+        "*"
+    ],
+    [
+        "moderate",
+        "adj.适度的;中等的;温和的;vi.& vt.缓和;使适中【词性不同发音不同】",
+        ""
+    ],
+    [
+        "submit",
+        "vt. & vi.提交;呈递;屈服",
+        "*"
+    ],
+    [
+        "annual",
+        "adj.每年的;一年的;n.年刊;年鉴",
+        "*"
+    ],
+    [
+        "tropical",
+        "adj.热带的;来自热带的",
+        ""
+    ],
+    [
+        "chaos",
+        "n.混乱;杂乱;紊乱",
+        "*"
+    ],
+    [
+        "on behalf of",
+        "代表(代替)某人",
+        "*D"
+    ],
+    [
+        "nuclear",
+        "adj.原子能的;核能的;原子核的",
+        "*"
+    ],
+    [
+        "sensitive",
+        "adj.敏感的;善解人意的;灵敏的",
+        "*"
+    ],
+    [
+        "jungle",
+        "n.(热带)丛林;密林",
+        "*"
+    ],
+    [
+        "smog",
+        "n.烟雾(烟与雾混合的空气污染物)",
+        "*"
+    ],
+    [
+        "originate",
+        "vi. & vt.起源;发源;创立",
+        ""
+    ],
+    [
+        "volume",
+        "n.量;体积;(成套书籍中的)一卷",
+        "*"
+    ],
+    [
+        "garbage",
+        "n.垃圾;废物",
+        "*"
+    ],
+    [
+        "enterprise",
+        "n.公司;企业;事业",
+        "*"
+    ],
+    [
+        "restore",
+        "vt.恢复;使复原;修复",
+        "*"
+    ],
+    [
+        "conservation",
+        "n.(对环境、文物等)保护;保持",
+        "*"
+    ],
+    [
+        "dozen",
+        "n.(一)打;十二个",
+        "*"
+    ],
+    [
+        "regulation",
+        "n.章程;规章制度",
+        ""
+    ],
+    [
+        "disposal",
+        "n.去掉;清除;处理",
+        ""
+    ],
+    [
+        "inspection",
+        "n.检查;查看;视察",
+        "*"
+    ],
+    [
+        "fine",
+        "vt.对……处以罚款",
+        "*"
+    ],
+    [
+        "campaign",
+        "n.运动;战役；vi.& vt.参加运动;领导运动",
+        "*"
+    ],
+    [
+        "waterway",
+        "n.水道;航道",
+        ""
+    ],
+    [
+        "tolerate",
+        "vt.忍受;包容;容许",
+        "*"
+    ],
+    [
+        "agenda",
+        "n.议程表;议事日程",
+        "*"
+    ],
+    [
+        "Norway",
+        "挪威(北欧国家)",
+        "Z"
+    ],
+    [
+        "Svalbard",
+        "斯瓦尔巴群岛(挪威)",
+        "Z"
+    ],
+    [
+        "Hurricane Katrina",
+        "飓风卡特里娜",
+        "Z"
+    ],
+    [
+        "\"have an impact, influence on, effect on\"",
+        "对...有影响",
+        "*D"
+    ],
+    [
+        "\"amounts of, dozens of, volume of\"",
+        "大题的; 许多",
+        "*D"
+    ],
+    [
+        "a higher price to pay",
+        "花费更高代价",
+        "*D"
+    ],
+    [
+        "seize every opportunity to do",
+        "抓住每次机会",
+        "*D"
+    ],
+    [
+        "\"seize the initiative to do, take the initiative to do\"",
+        "主动做",
+        "*D"
+    ],
+    [
+        "\"take measures to do, adopt measures to do, implement measures to do\"",
+        "采取措施做",
+        "*D"
+    ],
+    [
+        "in harmony with",
+        "与...和谐",
+        "*D"
+    ],
+    [
+        "on behalf of",
+        "代表",
+        "*D"
+    ],
+    [
+        "be sensitive to ...",
+        "对...敏感",
+        "*D"
+    ],
+    [
+        "originate in",
+        "起源于",
+        "*D"
+    ],
+    [
+        "address the issue",
+        "解决问题",
+        "*D"
+    ],
+    [
+        "a comprehensive initiative",
+        "全面治理方案",
+        "*D"
+    ],
+    [
+        "set up strict regulations",
+        "制定严格法规",
+        "*D"
+    ],
+    [
+        "in effect",
+        "实施中;有效;实际上",
+        "*D"
+    ],
+    [
+        "dispose of",
+        "解决;处理",
+        "*D"
+    ],
+    [
+        "bring about",
+        "带来;引起",
+        "*D"
+    ],
+    [
+        "emit a cry of pain",
+        "发出疼痛的叫声",
+        "*D"
     ]
 ]
