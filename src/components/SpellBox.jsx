@@ -64,7 +64,7 @@ export function SpellBox({ wordlist }) {
 	}, [ratingStoreReady]);
 
 	const handleSubmit = async () => {
-		let ok = question.word.split(',').some(x => compareAnswer(x, userAnswer));
+		let ok = question.word.split(',').some(x => compareAnswer(x, userAnswer.split(',')[0]));
 		let outcome = ok ? 1 : -1;
 		if (isCorrect) {
 			setQuestion(await ratingStore.markItem(question.word, outcome));
