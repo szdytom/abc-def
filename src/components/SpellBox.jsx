@@ -70,10 +70,10 @@ export function SpellBox({ wordlist }) {
 			setQuestion(await ratingStore.markItem(question.word, outcome));
 		}
 
+		setUserAnswer(question.word.replaceAll('"', ''));
 		if (!ok) {
 			setIsCorrect(false);
 			setCombo(0);
-			setUserAnswer(question.word.replaceAll('"', ''));
 			setAnswerStatus('wrong');
 		} else {
 			if (isCorrect) {
