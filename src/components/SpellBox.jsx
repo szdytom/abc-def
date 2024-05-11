@@ -73,7 +73,7 @@ export function SpellBox({ wordlist }) {
 		if (!ok) {
 			setIsCorrect(false);
 			setCombo(0);
-			setUserAnswer(question.word.split(',')[0].trim().replaceAll('"', ''));
+			setUserAnswer(question.word.replaceAll('"', ''));
 			setAnswerStatus('wrong');
 		} else {
 			if (isCorrect) {
