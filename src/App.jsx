@@ -2,9 +2,11 @@ import './index.css';
 import { SpellBox } from './components/SpellBox';
 import * as rawWordlist from '../data/midterm.json';
 
+let onlyD = new URL(location.href).searchParams.get('onlyD') === '1';
+
 let wordlist = new Map();
 for (let row of rawWordlist) {
-	if (row[2].indexOf('Z') == -1 && (row[2].indexOf('*') != -1 || row[2].indexOf('D') != -1)) {
+	if (row[2].indexOf('Z') == -1 && ((!onlyD && row[2].indexOf('*') != -1) || row[2].indexOf('D') != -1)) {
 		wordlist.set(row[0], {
 			word: row[0],
 			text: row[1],
