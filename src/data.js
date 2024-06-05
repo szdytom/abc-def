@@ -6,6 +6,8 @@ export const availableData = [
 	['B6U3', new URL('../data/b6u3.CSV', import.meta.url)],
 	['B6U4', new URL('../data/b6u4.CSV', import.meta.url)],
 	['B6U5', new URL('../data/b6u5.CSV', import.meta.url)],
+	['B7U1', new URL('../data/b7u1.CSV', import.meta.url)],
+	['B7U2', new URL('../data/b7u2.CSV', import.meta.url)],
 ];
 
 export function parseSelectedUnits() {
