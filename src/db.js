@@ -93,7 +93,7 @@ export class RatingStore {
 		for (let word of wordlist) {
 			let item = await this.db.get('ratings', word);
 			if (item.learnt) {
-				let gap = Math.ceil(Math.pow(1.3, item.rating)) + 1;
+				let gap = Math.ceil(Math.pow(1.5, item.rating)) + 1;
 				if (gap < step - item.lastApperance) {
 					review.push(item);
 				} else {

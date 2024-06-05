@@ -6,3 +6,9 @@ main {
 html {
 	background-color: #fff;
 }
+
+.a-button {
+	color: #0000ee;
+	text-decoration: underline;
+	cursor: pointer;
+}

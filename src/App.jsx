@@ -1,26 +1,43 @@
 import './index.css';
 import { SpellBox } from './components/SpellBox';
-import * as rawWordlist from '../data/midterm.json';
-
-let onlyD = new URL(location.href).searchParams.get('onlyD') === '1';
-
-let wordlist = new Map();
-for (let row of rawWordlist) {
-	if (row[2].indexOf('Z') == -1 && ((!onlyD && row[2].indexOf('*') != -1) || row[2].indexOf('D') != -1)) {
-		wordlist.set(row[0], {
-			word: row[0],
-			text: row[1],
-		});
-	}
-}
+import { UnitSelector } from './components/SelectUnit';
+import { useEffect, useState } from 'react';
+import { parseSelectedUnits, loadWordList } from './data';
 
 export function App() {
-	return (
-		<>
-			<main>
-				<SpellBox wordlist={wordlist} />
-			</main>
-		</>
-	);
-}
+	// const [page, setPage] = useState(() => {
+	// 	return parseSelectedUnits().length > 0 ? 'spell' : 'select';
+	// });
 
+	const [page, setPage] = useState(parseSelectedUnits().length > 0 ? 'spell' : 'select');
+
+	const [wordlist, setWordlist] = useState(null);
+	useEffect(() => {
+		setWordlist(null);
+		if (page === 'spell') {
+			loadWordList().then(setWordlist);
+		}
+	}, [page]);
+
+	if (page === 'select') {
+	    return (
+			<main>
+				<UnitSelector />
+				<button onClick={() => setPage('spell')}>Done</button>
+			</main>
+		);
+	}
+
+	if (wordlist === null) {
+	    return <main>Loading...</main>;
+	}
+
+	if (page === 'spell') {
+	    return (
+	        <main>
+				<SpellBox wordlist={wordlist} />
+				<a class="a-button" onClick={() => setPage('select')}>Reselect Units</a>
+			</main>
+	    )
+	}
+}
