@@ -5,11 +5,9 @@ import { useEffect, useState } from 'react';
 import { parseSelectedUnits, loadWordList } from './data';
 
 export function App() {
-	// const [page, setPage] = useState(() => {
-	// 	return parseSelectedUnits().length > 0 ? 'spell' : 'select';
-	// });
-
-	const [page, setPage] = useState(parseSelectedUnits().length > 0 ? 'spell' : 'select');
+	const [page, setPage] = useState(() => {
+		return parseSelectedUnits().length > 0 ? 'spell' : 'select';
+	});
 
 	const [wordlist, setWordlist] = useState(null);
 	useEffect(() => {
