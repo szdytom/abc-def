@@ -7,11 +7,19 @@ export const availableData = [
 	['B1U3', new URL('../data/b1u3.CSV', import.meta.url)],
 	['B1U4', new URL('../data/b1u4.CSV', import.meta.url)],
 	['B1U5', new URL('../data/b1u5.CSV', import.meta.url)],
+
+	['B2U1', new URL('../data/b2u1.CSV', import.meta.url)],
+	['B2U2', new URL('../data/b2u2.CSV', import.meta.url)],
+	['B2U3', new URL('../data/b2u3.CSV', import.meta.url)],
+	['B2U4', new URL('../data/b2u4.CSV', import.meta.url)],
+	['B2U5', new URL('../data/b2u5.CSV', import.meta.url)],
+
     ['B6U1', new URL('../data/b6u1.CSV', import.meta.url)],
 	['B6U2', new URL('../data/b6u2.CSV', import.meta.url)],
 	['B6U3', new URL('../data/b6u3.CSV', import.meta.url)],
 	['B6U4', new URL('../data/b6u4.CSV', import.meta.url)],
 	['B6U5', new URL('../data/b6u5.CSV', import.meta.url)],
+	
 	['B7U1', new URL('../data/b7u1.CSV', import.meta.url)],
 	['B7U2', new URL('../data/b7u2.CSV', import.meta.url)],
 	['B7U3', new URL('../data/b7u3.CSV', import.meta.url)],
