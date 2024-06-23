@@ -1,6 +1,12 @@
 import Papa from 'papaparse';
 
 export const availableData = [
+	['B1U0', new URL('../data/b1u0.CSV', import.meta.url)],
+	['B1U1', new URL('../data/b1u1.CSV', import.meta.url)],
+	['B1U2', new URL('../data/b1u2.CSV', import.meta.url)],
+	['B1U3', new URL('../data/b1u3.CSV', import.meta.url)],
+	['B1U4', new URL('../data/b1u4.CSV', import.meta.url)],
+	['B1U5', new URL('../data/b1u5.CSV', import.meta.url)],
     ['B6U1', new URL('../data/b6u1.CSV', import.meta.url)],
 	['B6U2', new URL('../data/b6u2.CSV', import.meta.url)],
 	['B6U3', new URL('../data/b6u3.CSV', import.meta.url)],
