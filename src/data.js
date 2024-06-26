@@ -20,7 +20,11 @@ export const availableData = [
 	['B3U4', new URL('../data/b3u4.CSV', import.meta.url)],
 	['B3U5', new URL('../data/b3u5.CSV', import.meta.url)],
 
-	// B4 is missing
+	['B4U1', new URL('../data/b4u1.CSV', import.meta.url)],
+	['B4U2', new URL('../data/b4u2.CSV', import.meta.url)],
+	['B4U3', new URL('../data/b4u3.CSV', import.meta.url)],
+	['B4U4', new URL('../data/b4u4.CSV', import.meta.url)],
+	['B4U5', new URL('../data/b4u5.CSV', import.meta.url)],
 
 	['B5U1', new URL('../data/b5u1.CSV', import.meta.url)],
 	['B5U2', new URL('../data/b5u2.CSV', import.meta.url)],
