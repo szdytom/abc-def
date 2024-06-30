@@ -56,8 +56,6 @@ export function parseFilterOptions() {
 
 export async function loadWordList() {
 	let units_urls = parseSelectedUnits();
-	console.log(units_urls);
-
 	let filter_expr = 'return ' + parseFilterOptions();
 	let filter_func = new Function('isStarred', 'isPhrase', 'isProper', filter_expr);
 	let rawWordlists = await Promise.all(units_urls.map(u => loadData(u)));

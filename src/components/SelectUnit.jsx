@@ -58,7 +58,7 @@ export function UnitSelector() {
 					<input id="filter-input" name="filter-input" type="text" value={filterOptions} onChange={(e) => setFilterOptions(e.target.value)} placeholder="Filter expression..." />
 				</div>
 				<div className="filter-desc desc-text">
-					<p>Write a expression to filter the item you need, available predicate are:</p>
+					<p>Write a expression to filter the items you need, available predicate are:</p>
 					<ul>
 						{filterPredicates.map((predicate) => (
 						    <li key={predicate.name}><code>{predicate.name}</code>: {predicate.desc}</li>
