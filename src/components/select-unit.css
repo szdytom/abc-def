@@ -1,6 +1,6 @@
 #filter-input {
 	width: 100%;
-	font: 'Monaspace Radon', monospace;
+	font-family: 'Monaspace Radon', monospace;
 }
 
 #filter-input::placeholder {
