@@ -4,7 +4,7 @@ import './select-unit.css';
 
 const filterPredicates = [{
 		name: 'isStarred',
-		desc: 'If this item is mark on bold on the book.',
+		desc: 'If this item is marked bold on the book.',
 	}, {
 		name: 'isPhrase',
 		desc: 'If this item is a phrase.',
