@@ -21,20 +21,5 @@
 }
 
 #submit-button {
-	height: 42px;
-	padding: 0 15px;
 	margin-left: 10px;
-	background-color: black;
-	border: 1px solid black;
-	color: white;
-	cursor: pointer;
-}
-
-#submit-button:hover {
-	background-color: #333;
-	border: 1px solid #333;
-}
-
-#submit-button:focus {
-	outline: none;
 }

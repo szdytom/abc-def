@@ -46,17 +46,29 @@ export const availableData = [
 ];
 
 export function parseSelectedUnits() {
-	return JSON.parse(localStorage.getItem('abc-def-selectedUnits') ?? '[]');
+	let list = JSON.parse(localStorage.getItem('abc-def-selectedUnits') ?? '[]');
+	return list.filter(url => availableData.some(d => d[1].toString() === url));
+}
+
+export function parseFilterOptions() {
+    return localStorage.getItem('abc-def-filterOptions') ?? 'isStarred';
 }
 
 export async function loadWordList() {
 	let units_urls = parseSelectedUnits();
+	console.log(units_urls);
+
+	let filter_expr = 'return ' + parseFilterOptions();
+	let filter_func = new Function('isStarred', 'isPhrase', 'isProper', filter_expr);
 	let rawWordlists = await Promise.all(units_urls.map(u => loadData(u)));
 	let wordlist = new Map();
 	for (let rawWordlist of rawWordlists) {
 		for (let row of rawWordlist) {
 			if (row.length < 3) { continue; }
-			if (row[2].indexOf('Z') == -1 && row[2].indexOf('*') != -1) {
+			const isStarred = row[2].indexOf('*') != -1;
+			const isPhrase = row[2].indexOf('D') != -1;
+			const isProper = row[2].indexOf('Z') != -1;
+			if (filter_func(isStarred, isPhrase, isProper)) {
 				wordlist.set(row[0], {
 					word: row[0],
 					text: row[1],

@@ -21,7 +21,7 @@ export function App() {
 	    return (
 			<main>
 				<UnitSelector />
-				<button onClick={() => setPage('spell')}>Done</button>
+				<button id="unit-select-done" className="em-button" onClick={() => setPage('spell')}>Done</button>
 			</main>
 		);
 	}
@@ -34,7 +34,7 @@ export function App() {
 	    return (
 	        <main>
 				<SpellBox wordlist={wordlist} />
-				<a class="a-button" onClick={() => setPage('select')}>Reselect Units</a>
+				<a className="a-button nav-a-button" onClick={() => setPage('select')}>Reselect Units</a>
 			</main>
 	    )
 	}

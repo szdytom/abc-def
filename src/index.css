@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 main {
 	width: 600px;
 	margin: 20px auto;
@@ -11,4 +15,34 @@ html {
 	color: #0000ee;
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+
+.em-button {
+	height: 40px;
+	padding: 0 15px;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	cursor: pointer;
+	border-radius: 0;
+}
+
+.em-button:hover {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+.em-button:focus {
+	outline: none;
+}
+
+.footer-text {
+	color: #999;
+	font-size: smaller;
+	margin: 3px;
+}
+
+.nav-a-button {
+	margin-top: 40px;
 }

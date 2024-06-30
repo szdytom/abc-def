@@ -1,0 +1,35 @@
+#filter-input {
+	width: 100%;
+	font: 'Monaspace Radon', monospace;
+}
+
+#filter-input::placeholder {
+    color: #999;
+}
+
+.desc-text code {
+	background-color: #f8f8f8;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.unit-selection {
+	display: block;
+	float: left;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.unit-selector {
+	height: fit-content;
+}
+
+.unit-selection label, .unit-selection input {
+	cursor: pointer;
+}
+
+#unit-select-done {
+	display: block;
+	width: 250px;
+	margin-top: 20px;
+}

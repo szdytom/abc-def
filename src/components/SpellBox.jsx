@@ -101,6 +101,10 @@ export function SpellBox({ wordlist }) {
 		}
 	};
 
+	if (wordlist.size === 0) {
+	    return <main>No units selected, or all words are filtered.</main>;
+	}
+
 	if (!ratingStoreReady || question == null) {
 		return <p>Generating Next Question...</p>;
 	}
@@ -123,11 +127,11 @@ export function SpellBox({ wordlist }) {
 					onKeyDown={handleInputKeydown}
 					autoFocus
 				/>
-				<button id='submit-button' onClick={handleSubmitEvent}>
+				<button id='submit-button' className='em-button' onClick={handleSubmitEvent}>
 					Submit
 				</button>
 			</div>
-			<p>Rating: {question.rating}. Confidence: {question.confidence}.</p>
+			<p className="footer-text">Rating: {question.rating}. Confidence: {question.confidence}.</p>
 		</>
 	)
 }
