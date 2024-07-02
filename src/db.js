@@ -123,7 +123,7 @@ export class RatingStore {
 			},
 			next: getRandomElement(review)
 				?? getRandomElement(learn)
-				?? getRandomElement(fallback),
+				?? getRandomElement(fallback) ?? 0,
 		};
 	}
 };

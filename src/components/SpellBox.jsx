@@ -109,6 +109,10 @@ export function SpellBox({ wordlist }) {
 		return <p>Generating Next Question...</p>;
 	}
 
+	if (question === 0) {
+		return <p>All caught up! Take a rest or select another unit!</p>;
+	}
+
 	let description = wordlist.get(question.word).text;
 
 	return (
