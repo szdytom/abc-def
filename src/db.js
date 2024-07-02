@@ -79,8 +79,10 @@ export class RatingStore {
 
 		if (outcome === 1) {
 			item.rating = Math.max(item.rating, 8.5);
-		} else if (old_rating < 12) { // forgive mistype
-			item.rating = Math.min(item.rating, 6);
+		} else if (item.rating > 6) {
+			let lost = item.rating - 6;
+			item.rating = 6;
+			item.confidence += lost;
 		}
 		await tx.store.put(item);
 		await tx.done;
