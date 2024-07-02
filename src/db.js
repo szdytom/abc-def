@@ -98,7 +98,7 @@ export class RatingStore {
 	async getItem(wordlist) {
 		let step = await this.currentStep();
 		let review = [], learn = [], fallback = [];
-		let fallback_gap = Infinity;
+		let fallback_gap = 12;
 		for (let word of wordlist) {
 			let item = await this.db.get('ratings', word);
 			if (item.learnt) {
