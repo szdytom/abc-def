@@ -77,7 +77,11 @@ export class RatingStore {
 			item.confidence *= 1.2;
 		}
 
-		item.confidence = Math.min(item.confidence, 3.5);
+		if (item.rating < 12) {
+			item.confidence = Math.min(item.confidence, 3.5);
+		} else {
+			item.confidence = Math.min(item.confidence, 1.6);
+		}
 
 		if (outcome === 1) {
 			item.rating = Math.max(item.rating, 8.5);
