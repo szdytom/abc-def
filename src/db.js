@@ -98,20 +98,18 @@ export class RatingStore {
 	async getItem(wordlist) {
 		let step = await this.currentStep();
 		let review = [], learn = [], fallback = [];
-		let low_gap = Infinity, low_gap_item = null;
+		let fallback_gap = Infinity;
 		for (let word of wordlist) {
 			let item = await this.db.get('ratings', word);
 			if (item.learnt) {
 				let gap = Math.ceil(Math.pow(1.5, item.rating)) + item.rating + 1;
 				if (gap < step - item.lastApperance) {
 					review.push(item);
-				} else {
+				} else if (gap < fallback_gap) {
+					fallback = [item];
+					fallback_gap = gap;
+				} else if (gap === fallback_gap) {
 					fallback.push(item);
-				}
-
-				if (gap < low_gap) {
-					low_gap = gap;
-					low_gap_item = item;
 				}
 			} else {
 				learn.push(item);
@@ -125,7 +123,6 @@ export class RatingStore {
 			},
 			next: getRandomElement(review)
 				?? getRandomElement(learn)
-				?? low_gap_item
 				?? getRandomElement(fallback),
 		};
 	}
