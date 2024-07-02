@@ -118,7 +118,7 @@ export class RatingStore {
 
 		return {
 			progress: {
-				reviewCount: review.length,
+				reviewCount: review.length || fallback.length,
 				learnCount: learn.length,
 			},
 			next: getRandomElement(review)
