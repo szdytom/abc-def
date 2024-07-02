@@ -78,7 +78,7 @@ export class RatingStore {
 		}
 
 		if (outcome === 1) {
-			item.rating = Math.max(item.rating, 4.5);
+			item.rating = Math.max(item.rating, 8.5);
 		} else if (old_rating < 12) { // forgive mistype
 			item.rating = Math.min(item.rating, 6);
 		}
