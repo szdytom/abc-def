@@ -43,6 +43,13 @@ export const availableData = [
 	['B7U3', new URL('../data/b7u3.CSV', import.meta.url)],
 	['B7U4', new URL('../data/b7u4.CSV', import.meta.url)],
 	['B7U5', new URL('../data/b7u5.CSV', import.meta.url)],
+
+	['Phrase: Eye', new URL('../data/ActEye.csv', import.meta.url)],
+	['Phrase: Feet', new URL('../data/ActFeet.csv', import.meta.url)],
+	['Phrase: Hand', new URL('../data/ActHand.csv', import.meta.url)],
+	['Phrase: Head', new URL('../data/ActHead.csv', import.meta.url)],
+	['Phrase: Leg', new URL('../data/ActLeg.csv', import.meta.url)],
+	['Phrase: Mouth', new URL('../data/ActMouth.csv', import.meta.url)],
 ];
 
 export function parseSelectedUnits() {
