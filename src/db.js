@@ -84,7 +84,7 @@ export class RatingStore {
 		}
 
 		if (outcome === 1) {
-			item.rating = Math.max(item.rating, 8.5);
+			item.rating = Math.max(item.rating, 6.5);
 		} else if (item.rating > 6) {
 			let lost = item.rating - 6;
 			item.rating = 6;
@@ -98,11 +98,11 @@ export class RatingStore {
 	async getItem(wordlist) {
 		let step = await this.currentStep();
 		let review = [], learn = [], fallback = [];
-		let fallback_gap = 12;
+		let fallback_gap = 35;
 		for (let word of wordlist) {
 			let item = await this.db.get('ratings', word);
 			if (item.learnt) {
-				let gap = Math.ceil(Math.pow(1.5, item.rating)) + item.rating + 1;
+				let gap = Math.ceil(Math.pow(1.3, item.rating)) + item.rating + 1;
 				if (gap < step - item.lastApperance) {
 					review.push(item);
 				} else if (gap < fallback_gap) {
