@@ -50,6 +50,16 @@ export const availableData = [
 	['Phrase: Head', new URL('../data/ActHead.csv', import.meta.url)],
 	['Phrase: Leg', new URL('../data/ActLeg.csv', import.meta.url)],
 	['Phrase: Mouth', new URL('../data/ActMouth.csv', import.meta.url)],
+
+	['Phrase: Angry', new URL('../data/FeelingAngry.csv', import.meta.url)],
+	['Phrase: Excite', new URL('../data/FeelingExcite.csv', import.meta.url)],
+	['Phrase: Fear', new URL('../data/FeelingFear.csv', import.meta.url)],
+	['Phrase: Laugh', new URL('../data/FeelingLaugh.csv', import.meta.url)],
+	['Phrase: Pride', new URL('../data/FeelingPride.csv', import.meta.url)],
+	['Phrase: Sad', new URL('../data/FeelingSad.csv', import.meta.url)],
+	['Phrase: Satisfy', new URL('../data/FeelingSatisfy.csv', import.meta.url)],
+	['Phrase: Shock', new URL('../data/FeelingShock.csv', import.meta.url)],
+	['Phrase: Thanks', new URL('../data/FeelingThanks.csv', import.meta.url)],
 ];
 
 export function parseSelectedUnits() {
