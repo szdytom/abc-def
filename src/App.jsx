@@ -33,7 +33,7 @@ export function App() {
 	if (page === 'spell') {
 	    return (
 	        <main>
-				<SpellBox wordlist={wordlist} />
+				{wordlist instanceof Map ? <SpellBox wordlist={wordlist} /> : <p>An error occurred: {wordlist}</p>}
 				<a className="a-button nav-a-button" onClick={() => setPage('select')}>Reselect Units</a>
 			</main>
 	    )

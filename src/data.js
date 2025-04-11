@@ -62,24 +62,28 @@ export function parseFilterOptions() {
 }
 
 export async function loadWordList() {
-	let units_urls = parseSelectedUnits();
 	let filter_expr = 'return ' + parseFilterOptions();
-	let filter_func = new Function('isStarred', 'isPhrase', 'isProper', filter_expr);
-	let rawWordlists = await Promise.all(units_urls.map(u => loadData(u)));
 	let wordlist = new Map();
-	for (let rawWordlist of rawWordlists) {
-		for (let row of rawWordlist) {
-			if (row.length < 3) { continue; }
-			const isStarred = row[2].indexOf('*') != -1;
-			const isPhrase = row[2].indexOf('D') != -1;
-			const isProper = row[2].indexOf('Z') != -1;
-			if (filter_func(isStarred, isPhrase, isProper)) {
-				wordlist.set(row[0], {
-					word: row[0],
-					text: row[1],
-				});
+	try {
+		let units_urls = parseSelectedUnits();
+		let filter_func = new Function('isStarred', 'isPhrase', 'isProper', filter_expr);
+		let rawWordlists = await Promise.all(units_urls.map(u => loadData(u)));
+		for (let rawWordlist of rawWordlists) {
+			for (let row of rawWordlist) {
+				if (row.length < 3) { continue; }
+				const isStarred = row[2].indexOf('*') != -1;
+				const isPhrase = row[2].indexOf('D') != -1;
+				const isProper = row[2].indexOf('Z') != -1;
+				if (filter_func(isStarred, isPhrase, isProper)) {
+					wordlist.set(row[0], {
+						word: row[0],
+						text: row[1],
+					});
+				}
 			}
 		}
+	} catch(e) {
+		return e.toString();
 	}
 	return wordlist;
 }

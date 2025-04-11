@@ -16,13 +16,13 @@ const filterPredicates = [{
 
 const filterExamples = [{
 		expr: 'isStarred',
-		desc: 'Show bold words on the books only.',
+		desc: 'Select bold words on the books only.',
 	}, {
 		expr: 'isPhrase || isStarred',
-		desc: 'Show phrases or bold words only.',
+		desc: 'Select phrases and bold words only.',
 	}, {
 		expr: '!isProper',
-		desc: 'Show common words only.',
+		desc: 'Select common words only.',
 	}, {
 		expr: 'true',
 		desc: 'Select everything.',
